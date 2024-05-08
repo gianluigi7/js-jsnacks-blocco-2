@@ -2,9 +2,9 @@
 
 const inputArray = [];
 
-function ArrayLength(lunghezza) {
+function contaElementi(lunghezza) {
  return console.log(lunghezza.length) 
 }
 
 inputArray.push('1');
-ArrayLength(inputArray);
+contaElementi(inputArray);
