@@ -5,8 +5,8 @@ const inputDue = ['trattore', 19, 'alfredobarbiere'];
 
 
 
-function stampa(arrayInput, sommaStringhe) {
-
+function stampa(arrayInput) {
+  let sommaStringhe ='undefined';
     for (let i = 0; i < arrayInput.length; i++) {
         
         sommaStringhe += arrayInput[i] + ',';
