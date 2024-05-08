@@ -16,3 +16,5 @@ function stampa(arrayInput) {
 }
 
 console.log(stampa(input))
+
+
