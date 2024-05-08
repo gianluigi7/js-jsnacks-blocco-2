@@ -4,12 +4,14 @@ const arrayA =[1, 2, 3, 4, 5, 6, 7];
 const arrayB = [];
 
 function rimuoviDallaCoda(partenza) {
- 
-   let arrivo;
+   
+   let arrivo = [];
 
-    for (let i = 0; i < partenza.lenght -1; i++) 
+    for (let i = 0; i < partenza.length -1; i++) {
+
+        arrivo[i] = partenza[i];
+    }
         
-        partenza[i] = arrivo[i];
 
     return arrivo;
     
