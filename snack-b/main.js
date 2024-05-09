@@ -5,18 +5,19 @@ const input = 3;
 const inputFalse = 8;
 
 function trovaIndice(array, elemento) {
- 
-    for  (let i = 0; i<array.length && !elemento; i++) {
+    let arrayLength = array.length;
+
+    for  (let i = 0; i < arrayLength; i++) {
        console.log(array[i]);
-      }
-      
-      if (array[i] === elemento) {
-        return console.log(array.lenght);
+       
+       if (array[i] === elemento) {
+         return i;
+        }
       }
      
     return '-1';
 }
 
-trovaIndice(array, input);
+console.log(trovaIndice(array, input));
 
 
